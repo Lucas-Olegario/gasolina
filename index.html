@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasolina ou Etanol</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../../Submitted%20files/LUCAS%20OLEGARIO%20ALVES%20DA%20SILVA/Projeto%20em%20Aula%20com%20a%20professora/tanque.png">
+    
+</head>
+<body>
+    <div class="container">
+        <form action="" id="formulario">
+            <label for="combustivel">COMBUSTÍVEL:</label><br>
+            <input type="number" name="etanol" id="etanol" placeholder="Etanol" step="0.01">
+            <input type="number" name="gasolina" id="gasolina" placeholder="Gasolina" step="0.01">
+
+            <input type="button" class="button" value="Calcular" onclick="calcular()">
+            <input type="reset" class="button" value="Limpar" onclick="limpar()">
+        </form>
+
+        <img src="../../../Submitted%20files/LUCAS%20OLEGARIO%20ALVES%20DA%20SILVA/Projeto%20em%20Aula%20com%20a%20professora/tanque.png" alt="tanque-combustivel" class="img-tanque" id="status">
+        <p id="mensagem">Resultado:</p>
+    </div>
+</body>
+</html>
